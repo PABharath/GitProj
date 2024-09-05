@@ -7,16 +7,13 @@ import org.testng.annotations.Test;
 public class day1 {
 	
 	
-	  @Test(dataProvider = "getdata")
-	    public void alldata(String name) {
-	        System.out.println(name);
-	    }
-
-	    @DataProvider
-	    @Test
-	    public Object[][] getdata() {
-	        Object[][] data = {{"Hello"}, {"Hi"}, {"I love u"}};
-	        return data;
-	    }
+	  @Test
+	  public void m1() {
+		  System.out.println("Project1");
+		  System.out.println("Project2");
+		  System.out.println("Project3");
+		  
+	  }
+	   
 
 }
