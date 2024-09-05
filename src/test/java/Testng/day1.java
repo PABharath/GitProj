@@ -14,6 +14,12 @@ public class day1 {
 		  System.out.println("Project3");
 		  
 	  }
+	  @Test
+	  public void shiva() {
+		  System.out.println("Project4");
+		  System.out.println("Project5");
+		  System.out.println("Project6");
+	  }
 	   
 
 }
